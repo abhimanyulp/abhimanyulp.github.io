@@ -14,9 +14,11 @@
 <body>
     <!--===== HEADER =====-->
     <header class="l-header">
-        <nav class="nav bd-grid"  >
+        <nav class="nav bd-grid">
             <div>
-                <a href="#" class="nav__logo">< Abhimanyu /></a>
+                <a href="#" class="nav__logo">
+                    < Abhimanyu />
+                </a>
             </div>
 
             <div class="nav__menu" id="nav-menu">
@@ -26,7 +28,9 @@
                     <li class="nav__item"><a href="#skills" class="nav-link skills">Skills</a></li>
                     <li class="nav__item"><a href="#projects" class="nav-link projects">Projects</a></li>
                     <li class="nav__item"><a href="#contact" class="nav-link contact">Contact</a></li>
-                    <li class="nav__item"><a href="https://drive.google.com/u/0/uc?id=1bTVw5yq4Pkh33dk6dEK_OAatUoX-FKeA&export=download" class="nav-link resume"><button class="resume_button">Resume</button></a></li>
+                    <li class="nav__item"><a
+                            href="https://drive.google.com/u/0/uc?id=1bTVw5yq4Pkh33dk6dEK_OAatUoX-FKeA&export=download"
+                            class="nav-link resume" id="resume-button-1 resume-link-1"><button class="resume_button">Resume</button></a></li>
                 </ul>
             </div>
 
@@ -37,12 +41,190 @@
     </header>
 
     <main class="l-main">
-        
+
+        <!--===== HOME =====-->
+        <section class="home_main bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Abhimanyu</span><br>Web Developer
+                </h1>
+
+                <a href="https://drive.google.com/u/0/uc?id=1bTVw5yq4Pkh33dk6dEK_OAatUoX-FKeA&export=download" class="button" id="resume-button-2 resume-link-2">Resume</a>
+            </div>
+
+            <div class="home__social">
+                <a href="mailto:lp.abhimanyu@gmail.com" class="home__social-icon"><i class='bx bx-envelope'></i></a>
+                <a href="https://www.linkedin.com/in/abhimanyulp/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/abhimanyulp" target="_blank" class="home__social-icon"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+                    <image class="home__blob-img home-img" x="50" y="60" href="./img/perfil.png" />
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div>
+                    <h2 class="about__subtitle" id="user-detail-name">I'am Abhimanyu</h2>
+                    <p class="about__text" id="user-detail-intro">A recent graduate with a strong foundation in Node.js, Express.js and
+                        MongoDB. Passionate about building scalable and secure web applications. A detail-oriented and
+                        collaborative team player committed to continuous learning and growth. Excited to contribute to
+                        the success of the organization.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-nodejs skills-card-img'></i>
+                        <span class="skills__name">NodeJS</span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bx-code-alt skills-card-img'></i>
+                        <span class="skills-card-name">Express</span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxs-data skills-card-img'></i>
+                        <span class="skills-card-name">MongoDB</span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-html5 skills-card-img'></i>
+                        <span class="skills-card-name">HTML5</span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-css3 skills-card-img'></i>
+                        <span class="skills-card-name">CSS3</span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-javascript skills-card-img'></i>
+                        <span class="skills-card-name">JAVASCRIPT</span>
+                    </div>
+                </div>
+
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-git skills__icon skills-card-img'></i>
+                        <span class="skills-card-name">Git</span>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <!--===== Projects =====-->
+        <section class="projects section" id="projects">
+            <h2 class="section-title">projects</h2>
+
+            <div class="work__container bd-grid">
+                <div class="work__img">
+                    <img src="./img/n-gage.png" alt="">
+                    <div class="work_details">
+                        <h1 class="project-title">Engage Bay Clone</h1>
+                        <h5 class="project-tech-stack">HTML | CSS | JavaScript</h5>
+                        <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dignissimos saepe quam? Maxime
+                            exercitationem minima est eaque ducimus, incidunt distinctio.</p><br>
+                        <a href="https://github.com/abhimanyulp/bustling-wheel-1520" target="_blank"><i class='bx bxl-github skills__icon project-github-link'></i></a>
+                        <a href="https://radiant-hummingbird-440679.netlify.app/" target="_blank"><i class='bx bx-link-external skills__icon project-deployed-link'></i></a>
+                    </div>
+
+                </div>
+                <div class="work__img">
+                    <img src="./img/the_checken_lab.png" alt="">
+                    <div class="work_details">
+                        <h1 class="project-title">El Pollo Loco Clone</h1>
+                        <h5 class="project-tech-stack">HTML | CSS | JavaScript</h5>
+                        <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dignissimos saepe quam? Maxime
+                            exercitationem minima est eaque ducimus, incidunt distinctio.</p><br>
+                        <a href="https://github.com/abhimanyulp/daffy-driving-936" target="_blank"><i class='bx bxl-github skills__icon project-github-link'></i></a>
+                        <a href="https://lambent-caramel-808332.netlify.app/" target="_blank"><i class='bx bx-link-external skills__icon project-deployed-link'></i></a>
+                    </div>
+
+                </div>
+                <div class="work__img">
+                    <img src="./img/runfast.png" alt="">
+                    <div class="work_details">
+                        <h1 class="project-title">Finish Line Clone</h1>
+                        <h5 class="project-tech-stack">HTML | CSS | JavaScript</h5>
+                        <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dignissimos saepe quam? Maxime
+                            exercitationem minima est eaque ducimus, incidunt distinctio.</p><br>
+                        <a href="https://github.com/abhimanyulp/immense-egg-608" target="_blank"><i class='bx bxl-github skills__icon'></i></a>
+                        <a href="https://wonderful-bubblegum-6d57d1.netlify.app/" target="_blank"><i class='bx bx-link-external skills__icon'></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="bd-grid stats-1">
+                <a href="https://github.com/abhimanyulp" id="github-streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=abhimanyulp"/></a>
+            </div>
+            <div class="bd-grid stats-2">
+                <a href="https://github.com/abhimanyulp" id="github-stats-card"><img src="https://github-readme-stats.vercel.app/api?username=abhimanyulp"/></a>
+                <a href="https://github.com/abhimanyulp" id="github-top-langs"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhimanyulp" alt=""></a>
+            </div>
+
+
+
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+
+                <div class="contact_details">
+                    <a href="mailto:lp.abhimanyu@gmail.com" class="contact_tag">
+                        <i class='bx bx-envelope skills__icon'></i>
+                        <span id="contact-email">lp.abhimanyu@gmail.com</span>
+                    </a>
+                    <a href="callto:+91-8826933121" class="contact_tag">
+                        <i class='bx bx-phone skills__icon'></i>
+                        <span id="contact-phone">+91-8826933121</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/abhimanyulp/ " target="_blank" class="contact_tag">
+                        <i class='bx bxl-linkedin skills__icon'></i>
+                        <span id="contact-linkedin">linkedin.com/in/abhimanyulp/</span>
+                    </a>
+                    <a href="https://github.com/abhimanyulp" target="_blank" class="contact_tag">
+                        <i class='bx bxl-github skills__icon'></i>
+                        <span id="contact-github">github.com/abhimanyulp</span>
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!--===== FOOTER =====-->
     <footer class="footer">
-
+        <p class="footer__title">Abhimanyu</p>
+        <p class="footer__copy">&#169; Abhimanyu. All rigths reserved</p>
     </footer>
 
 
