@@ -269,6 +269,7 @@ img {
     font-weight: var(--font-semi);
     border-radius: .5rem;
     transition: .3s;
+    border: none;
 }
 
 .button:hover {
@@ -403,6 +404,14 @@ img {
 .stats-2 > a {
     align-self: center;
     justify-self: center;
+}
+
+.react-activity-calendar {
+    /* max-width: 1024px; */
+    /* margin-left: var(--mb-2);
+    margin-right: var(--mb-2); */
+    /* margin: auto; */
+    margin-top: 40px;
 }
 
 /* ===== CONTACT =====*/
