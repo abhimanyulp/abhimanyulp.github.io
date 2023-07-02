@@ -68,7 +68,7 @@
                     xmlns:xlink="http://www.w3.org/1999/xlink">
 
 
-                    <image class="home__blob-img home-img" x="50" y="60" href="./img/perfil.png" src />
+                    <image class="home__blob-img home-img" x="50" y="60" href="./media/perfil.png" src />
                 </svg>
             </div>
         </section>
@@ -79,10 +79,7 @@
             <div class="about__container bd-grid">
                 <div>
                     <h2 class="about__subtitle" id="user-detail-name">I'am Abhimanyu</h2>
-                    <p class="about__text" id="user-detail-intro">A recent graduate with a strong foundation in Node.js,
-                        Express.js and MongoDB. Passionate about building scalable and secure web applications. A
-                        detail-oriented and collaborative team player committed to continuous learning and growth.
-                        Excited to contribute to the success of the organization.</p>
+                    <p class="about__text" id="user-detail-intro">A recent graduate with a strong foundation in backend technologies including Node.js, Express.js, and MongoDB. Proficient in frontend technologies such as HTML, CSS, JavaScript, and React.js. Passionate about building scalable and secure web applications. A detail-oriented and collaborative team player committed to continuous learning and growth. Excited to contribute to the success of the organization</p>
                 </div>
             </div>
         </section>
@@ -109,8 +106,23 @@
 
                 <div class="skills-card">
                     <div class="skills__names">
-                        <i class='bx bxs-data skills-card-img'></i>
+                        <i class='bx bxl-react skills__icon skills-card-img'></i>
+                        <span class="skills-card-name">React</span>
+                    </div>
+                </div>
+
+                <div class="skills-card">
+                    <div class="skills__names">
+                        <i class='bx bxl-mongodb skills-card-img'><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: hsl(var(--hue-color), 89%, 60%);"><path d="M13.74 4.23c-.84-1-1.57-2-1.71-2.22H12c-.14.21-.87 1.22-1.71 2.22-7.2 9.19 1.14 15.39 1.14 15.39l.07.05c.06.95.22 2.33.22 2.33h.62s.15-1.37.21-2.33l.07-.06s8.32-6.19 1.12-15.38zM12 19.48a3.48 3.48 0 0 1-.48-.48L12 9l.45 10a3.57 3.57 0 0 1-.45.48z"></path></svg></i>
+                        
                         <span class="skills-card-name">MongoDB</span>
+                    </div>
+                </div>
+
+                <div class="skills-card">
+                    <div class="skills__names">
+                        <i class='bx bxs-data skills__icon skills-card-img'></i>
+                        <span class="skills-card-name">MySql</span>
                     </div>
                 </div>
 
@@ -135,12 +147,10 @@
                     </div>
                 </div>
 
-                <div class="skills-card">
-                    <div class="skills__names">
-                        <i class='bx bxl-git skills__icon skills-card-img'></i>
-                        <span class="skills-card-name">Git</span>
-                    </div>
-                </div>
+
+
+
+                
             </div>
 
         </section>
@@ -150,10 +160,56 @@
             <h2 class="section-title">projects</h2>
 
             <div class="project__container bd-grid">
+
+                
+
                 <div class="project-card">
-                    <img src="./img/n-gage.png" alt="">
+                    <img src="./media/CodeVortex.png" alt="">
                     <div class="project_details">
-                        <h1 class="project-title">Engage Bay Clone</h1>
+                        <h1 class="project-title">CodeVortex</h1>
+                        <h5 class="project-tech-stack">Node.js | Express | MongoDB | React | Redux | TailwindCSS | Thunk | Chakra UI</h5>
+                        <p class="project-description">Code Vortex: AI-powered prep platform for interviews. Real scenarios, personalized feedback, and resources to boost job search success.</p><br>
+                        <a href="https://github.com/abhimanyulp/CodeVortex" target="_blank"
+                            class="project-github-link"><i class='bx bxl-github skills__icon'></i></a>
+                        <a href="https://code-vertex.netlify.app/" target="_blank"
+                            class="project-deployed-link"><i class='bx bx-link-external skills__icon'></i></a>
+                    </div>
+
+                </div>
+
+                <div class="project-card">
+                    <img src="./media/skill mentor.png" alt="">
+                    <div class="project_details">
+                        <h1 class="project-title">Skill Mentor</h1>
+                        <h5 class="project-tech-stack">Node.js | Express | MongoDB | HTML | CSS | JavaScript</h5>
+                        <p class="project-description">Tutor Appointment: Web-based system for booking, managing appointments, and profiles. Admins oversee appointments, data, and user/teacher management.</p><br>
+                        <a href="https://github.com/abhimanyulp/Skill-Mentor" target="_blank"
+                            class="project-github-link"><i class='bx bxl-github skills__icon'></i></a>
+                        <a href="https://649036113722945443c6387d--spiffy-unicorn-2d615b.netlify.app/index.html" target="_blank"
+                            class="project-deployed-link"><i class='bx bx-link-external skills__icon'></i></a>
+                    </div>
+
+                </div>
+                
+                <div class="project-card">
+                    <img src="./media/cognivera.png" alt="">
+                    <div class="project_details">
+                        <h1 class="project-title">Cognivera</h1>
+                        <h5 class="project-tech-stack">Node.js | Express | MongoDB | Socket.IO | HTML | CSS | JavaScript</h5>
+                        <p class="project-description">Clone of Slido.com. Interaction made easy with the custom UI and features for the user to create polls , quizzes and even chat.</p><br>
+                        <a href="https://github.com/abhimanyulp/Cognivera" target="_blank"
+                            class="project-github-link"><i class='bx bxl-github skills__icon'></i></a>
+                        <a href="https://cognivera.netlify.app/" target="_blank"
+                            class="project-deployed-link"><i class='bx bx-link-external skills__icon'></i></a>
+                    </div>
+
+                </div>
+
+
+                <div class="project-card">
+                    <img src="./media/n-gage.png" alt="">
+                    <div class="project_details">
+                        <h1 class="project-title">N-GAGE</h1>
                         <h5 class="project-tech-stack">Node.js | Express | MongoDB | HTML | CSS | JavaScript</h5>
                         <p class="project-description">It's a plan management website for an all-in-one
                             marketing, sales & service automation platform.</p><br>
@@ -164,26 +220,13 @@
                     </div>
 
                 </div>
-                <div class="project-card">
-                    <img src="./img/the_checken_lab.png" alt="">
-                    <div class="project_details">
-                        <h1 class="project-title">El Pollo Loco Clone</h1>
-                        <h5 class="project-tech-stack">HTML | CSS | JavaScript</h5>
-                        <p class="project-description">El Pollo Loco is a restaurant chain that offers the
-                            convenience of ordering food from the menu, making</p><br>
-                        <a href="https://github.com/abhimanyulp/daffy-driving-936" target="_blank"
-                            class="project-github-link"><i class='bx bxl-github skills__icon'></i></a>
-                        <a href="https://lambent-caramel-808332.netlify.app/" target="_blank"
-                            class="project-deployed-link"><i class='bx bx-link-external skills__icon'></i></a>
-                    </div>
 
-                </div>
                 <div class="project-card">
-                    <img src="./img/runfast.png" alt="">
+                    <img src="./media/runfast.png" alt="">
                     <div class="project_details">
-                        <h1 class="project-title">Finish Line Clone</h1>
+                        <h1 class="project-title">RUNFAST</h1>
                         <h5 class="project-tech-stack">HTML | CSS | JavaScript | JSON | API</h5>
-                        <p class="project-description">Finish Line is an e-commerce website that sells a variety
+                        <p class="project-description">RUNFAST is an e-commerce website that sells a variety
                             of fashion products.</p><br>
                         <a href="https://github.com/abhimanyulp/immense-egg-608" target="_blank"
                             class="project-github-link"><i class='bx bxl-github skills__icon'></i></a>
@@ -192,8 +235,24 @@
                     </div>
 
                 </div>
+
                 <div class="project-card">
-                    <img src="./img/fulll_stack_mini_project.png" alt="">
+                    <img src="./media/the_checken_lab.png" alt="">
+                    <div class="project_details">
+                        <h1 class="project-title">The Chicken Lab</h1>
+                        <h5 class="project-tech-stack">HTML | CSS | JavaScript</h5>
+                        <p class="project-description">The Chicken Lab (El Pollo Loco Clone) is a restaurant chain that offers the
+                            convenience of ordering food from the menu, making</p><br>
+                        <a href="https://github.com/abhimanyulp/daffy-driving-936" target="_blank"
+                            class="project-github-link"><i class='bx bxl-github skills__icon'></i></a>
+                        <a href="https://lambent-caramel-808332.netlify.app/" target="_blank"
+                            class="project-deployed-link"><i class='bx bx-link-external skills__icon'></i></a>
+                    </div>
+
+                </div>
+                
+                <!-- <div class="project-card">
+                    <img src="./media/fulll_stack_mini_project.png" alt="">
                     <div class="project_details">
                         <h1 class="project-title">Full Stack Mini Project</h1>
                         <h5 class="project-tech-stack">Node.js | Express | MongoDB | HTML | CSS | JavaScript</h5>
@@ -206,7 +265,7 @@
                             class="project-deployed-link"><i class='bx bx-link-external skills__icon'></i></a>
                     </div>
 
-                </div>
+                </div> -->
             </div>
 
             <div class="bd-grid stats">
